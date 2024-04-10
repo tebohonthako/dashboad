@@ -1,0 +1,52 @@
+body {
+    text-align: center;
+    display: block;
+    margin: 0;
+    margin-block-end: 100rem;
+}
+.container{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+    margin-left: 20rem;
+    margin-right: 20rem;
+    flex-direction: row;
+    align-items: center;
+    
+}
+header .myprofile {
+    border-radius: 250rem;
+    box-shadow: 20rem;  
+    
+}
+ .sidebar {
+    display: flex;
+    flex-direction: column;
+    margin-right: 60rem;
+    margin-top: 5rem;
+    position: fixed;
+    top: 22px;
+    left: 0;
+    bottom: 0;
+    background-color: pink;
+    padding: 50px;
+
+}
+
+#dash , .content-container {
+    text-align: center;
+    align-items: baseline;
+    margin-top: 5rem;
+}
+
+.content-container {
+    border: 0.01rem solid;
+    padding: 5rem;
+    width: 20%;
+    height: 30%;
+    align-items: center;
+    display: block;
+    margin: auto;
+    font-size: 10px;
+}
